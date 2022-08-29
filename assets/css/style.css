@@ -1,0 +1,62 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Quattrocento+Sans&display=swap');
+
+/* Most used variables, e.g: colors, margins.. */
+:root {
+    /* Colors */
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --text-on-primary-color: #000;
+    --text-on-secondary-color: #fff;
+    --text-highlight-color: #c7c7c7;
+
+    /* Margins */
+    --right-margin: 20px;
+    --left-margin: 20px;
+    --top-margin: 20px;
+
+    /* Spacing */
+    --header-spacing: 2px;
+}
+
+/* General body styling */
+body {
+    font-family: Mulish, Verdana, sans-serif;
+    font-weight: 300;
+    color: var(--text-on-primary-color);
+}
+
+/* Headings*/
+h1, h2 {
+    font-family: Quattrocento-Sans, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: var(--header-spacing);
+}
+
+/* Logo */
+#logo {
+    font-family: Quattrocento-Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: var(--header-spacing);
+    float: left;
+    line-height: var(--top-margin);
+}
+
+/* Menus */
+#top-menu{
+    letter-spacing: var(--header-spacing);
+    float: right;
+    line-height: var(--top-margin);
+}
+
+#top-menu li{
+    float: left;
+    display: inline;
+    list-style-type: none;
+    margin-right: var(--right-margin);
+}
+
+#bottom-menu li{
+    list-style-type: none;
+    margin-right: var(--right-margin);
+}
