@@ -107,13 +107,8 @@ h2 {
     margin-right: var(--right-margin);
 }
 
-#bottom-menu li {
-    list-style-type: none;
-    margin-right: var(--right-margin);
-}
 
-#top-menu a,
-#bottom-menu a {
+#top-menu a {
     text-decoration: none;
 }
 
@@ -124,27 +119,22 @@ h2 {
     height: 100vh;
     object-fit: cover;
     position: sticky;
+    overflow: hidden;
 
     z-index: -1;
     background-size: cover;
 }
 
 /* Definition Quote */
-#quote {
+.quote {
     text-align: center;
     font-size: 250%;
 }
 
-#quote::before{
+.quote::before {
     content: "\201C";
     font-weight: bold;
     font-size: 250%;
-}
-
-#quote u {
-    text-decoration-line: underline;
-    text-decoration: line-through;
-  text-decoration-style: double;
 }
 
 
@@ -191,7 +181,6 @@ h2 {
     position: absolute;
     top: 50%;
     left: 50%;
-    text-transform: capitalize;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -206,15 +195,58 @@ h2 {
     overflow: hidden;
 }
 
+/* Article Outline */
+
+.article-outline {
+    overflow: hidden;
+}
+
+.article-image {
+    overflow: hidden;
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.article-brief {
+    width: 50%;
+    float: right;
+}
+
 /* Footer */
 footer {
+    overflow: hidden;
     width: 100%;
     background: var(--secondary-color);
     color: var(--text-on-secondary-color);
     bottom: 0;
     left: 0;
     right: 0;
+    padding: var(--top-menu-padding);
 }
 
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#right-side-footer {
+    width: 80%;
+    float: right;
+}
+
+#left-side-footer {
+    width: 20%;
+    float: left;
+}
+
+#social-links > li {
+    list-style-type: none;
+    display: inline;
+}
+
+#bottom-menu a:hover, #social-links a:hover {
+    color: var(--text-highlight-color);
+}
 
 /* Media Queries */
