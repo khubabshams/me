@@ -13,17 +13,18 @@
     /* Margins */
     --right-margin: 20px;
     --left-margin: 20px;
-    --top-margin: 20px;
 
     /* Padding */
     --menu-highlight-padding: 20px;
+    --button-padding: 10px;
     --footer-padding: 20px;
 
-    /* Spacing */
+    /* Others */
     --header-spacing: 2px;
-
-    /* Borders */
+    --line-height: 20px;
+    --article-line-height: 0px;
     --highlight-border: 1px solid var(--text-highlight-color);
+    --article-image-height: 400px;
 }
 
 /* Overall styling */
@@ -84,7 +85,7 @@ h2 {
     font-family: 'Quattrocento Sans', sans-serif;
     letter-spacing: var(--header-spacing);
     float: left;
-    line-height: var(--top-margin);
+    line-height: var(--line-height);
     margin-left: var(--left-margin);
 }
 
@@ -96,7 +97,7 @@ h2 {
 #top-menu {
     letter-spacing: var(--header-spacing);
     float: right;
-    line-height: var(--top-margin);
+    line-height: var(--line-height);
     margin-right: var(--right-margin);
 }
 
@@ -137,6 +138,10 @@ h2 {
     font-size: 250%;
 }
 
+.credit {
+    text-align: center;
+    font-size: small;
+}
 
 /* Cards */
 .card {
@@ -196,21 +201,57 @@ h2 {
 }
 
 /* Article Outline */
-
 .article-outline {
+    border: var(--highlight-border);
+    margin: 0;
     overflow: hidden;
 }
 
 .article-image {
-    overflow: hidden;
-    display: block;
     width: 50%;
+    height: var(--article-image-height);
     float: left;
+    background-size: cover;
+    background-position: center;
 }
 
-.article-brief {
+.article-text {
     width: 50%;
     float: right;
+    padding-left: var(--left-margin);
+    font-size: 120%;
+}
+
+.article-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-text p::after {
+    content: "...";
+    font-weight: bold;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: var(--text-on-secondary-color);
+    border-radius: 0;
+    border: var(--highlight-border);
+    padding: var(--button-padding);
+}
+
+button i {
+    color: var(--secondary-color);
+}
+
+button:hover {
+    background-color: var(--primary-color);
+    color: var(--text-on-primary-color);
+}
+
+/* Special Article Style */
+#guideline-article-image {
+    background-image: url("../media/images/notebook_pen_and_flower.jpg");
 }
 
 /* Footer */
@@ -240,18 +281,22 @@ footer li {
     margin: 0;
 }
 
-#social-links, #footer-logo, #bottom-menu {
+#social-links,
+#footer-logo,
+#bottom-menu {
     float: left;
-    line-height: var(--top-margin);
+    line-height: var(--line-height);
     margin: 0 0;
 }
 
 #left-side-footer li {
     display: inline;
 }
+
 #bottom-menu {
     float: right;
 }
+
 #bottom-menu li {
     display: inline;
     margin-right: var(--right-margin);
