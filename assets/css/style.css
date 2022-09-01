@@ -16,15 +16,15 @@
 
     /* Padding */
     --menu-highlight-padding: 20px;
+    --left-padding: 20px;
     --button-padding: 10px;
     --footer-padding: 20px;
 
     /* Others */
     --header-spacing: 2px;
     --line-height: 20px;
-    --article-line-height: 0px;
     --highlight-border: 1px solid var(--text-highlight-color);
-    --article-image-height: 400px;
+    --image-height: 400px;
 }
 
 /* Overall styling */
@@ -113,16 +113,15 @@ h2 {
     text-decoration: none;
 }
 
-/* Cover Video */
+/* Cover Image */
 
-#cover-video {
+#cover-image {
+    background-image: url("../images/minimal_clean_workspace_bg.jpg");
     width: 100%;
-    height: 100vh;
-    object-fit: cover;
+    background-position: center;
+    /* height: 100vh; */
+    height: var(--image-height);
     position: sticky;
-    overflow: hidden;
-
-    z-index: -1;
     background-size: cover;
 }
 
@@ -209,7 +208,7 @@ h2 {
 
 .article-image {
     width: 50%;
-    height: var(--article-image-height);
+    height: var(--image-height);
     float: left;
     background-size: cover;
     background-position: center;
@@ -218,7 +217,7 @@ h2 {
 .article-text {
     width: 50%;
     float: right;
-    padding-left: var(--left-margin);
+    padding-left: var(--left-padding);
     font-size: 120%;
 }
 
@@ -251,7 +250,7 @@ button:hover {
 
 /* Special Article Style */
 #guideline-article-image {
-    background-image: url("../media/images/notebook_pen_and_flower.jpg");
+    background-image: url("../images/notebook_pen_and_flower.jpg");
 }
 
 /* Footer */
