@@ -253,6 +253,10 @@ button:hover {
     background-image: url("../images/notebook_pen_and_flower.jpg");
 }
 
+#acquiring-article-image {
+    background-image: url("../images/clothes_pack.jpg");
+}
+
 /* Footer */
 footer {
     overflow: hidden;
