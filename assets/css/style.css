@@ -142,6 +142,24 @@ h2 {
     background-size: cover;
 }
 
+#guideline-cover-image {
+    background-image: url("../images/notebook_pen_and_flower.jpg");
+    width: 100%;
+    background-position: center;
+    height: var(--image-height);
+    position: sticky;
+    background-size: cover;
+}
+
+#acquiring-cover-image {
+    background-image: url("../images/clothes_pack.jpg");
+    width: 100%;
+    background-position: center;
+    height: var(--image-height);
+    position: sticky;
+    background-size: cover;
+}
+
 /* Definition Quote */
 .quote {
     text-align: center;
@@ -231,19 +249,19 @@ h2 {
     background-position: center;
 }
 
-.article-text {
+.article-brief-text {
     width: 50%;
     float: right;
     padding-left: var(--left-padding);
     font-size: 120%;
 }
 
-.article-text a {
+.article-brief-text a {
     text-decoration: none;
     color: inherit;
 }
 
-.article-text p::after {
+.article-brief-text p::after {
     content: "...";
     font-weight: bold;
 }
@@ -328,12 +346,26 @@ footer li {
 }
 /* About Page */
 #about-text {
-    align-items: center;
     text-align: center;
     padding-left: var(--text-block-padding);
     padding-right: var(--text-block-padding);
 }
 #about-text p {
+    text-align: justify;
+}
+
+/* Article Page */
+#article-text{
+    padding-left: var(--text-block-padding);
+    padding-right: var(--text-block-padding);
+    font-size: 120%;
+}
+
+#article-text h2{
+    text-align: center;
+}
+
+#article-text p {
     text-align: justify;
 }
 
