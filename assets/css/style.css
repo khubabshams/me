@@ -17,6 +17,7 @@
     /* Padding */
     --menu-highlight-padding: 20px;
     --left-padding: 20px;
+    --text-block-padding: 20%;
     --button-padding: 10px;
     --footer-padding: 20px;
 
@@ -76,7 +77,6 @@ nav a:hover {
 h1,
 h2 {
     font-family: 'Quattrocento Sans', sans-serif;
-    text-transform: capitalize;
     letter-spacing: var(--header-spacing);
 }
 
@@ -113,13 +113,30 @@ h2 {
     text-decoration: none;
 }
 
-/* Cover Image */
+/* Cover Images */
 
-#cover-image {
+#home-cover-image {
     background-image: url("../images/minimal_clean_workspace_bg.jpg");
     width: 100%;
     background-position: center;
-    /* height: 100vh; */
+    height: var(--image-height);
+    position: sticky;
+    background-size: cover;
+}
+
+#books-cover-image {
+    background-image: url("../images/books_bg.jpg");
+    width: 100%;
+    background-position: center;
+    height: var(--image-height);
+    position: sticky;
+    background-size: cover;
+}
+
+#about-cover-image {
+    background-image: url("../images/computer_cup_bg.jpg");
+    width: 100%;
+    background-position: center;
     height: var(--image-height);
     position: sticky;
     background-size: cover;
@@ -308,6 +325,16 @@ footer li {
 #bottom-menu a:hover,
 #social-links a:hover {
     color: var(--text-highlight-color);
+}
+/* About Page */
+#about-text {
+    align-items: center;
+    text-align: center;
+    padding-left: var(--text-block-padding);
+    padding-right: var(--text-block-padding);
+}
+#about-text p {
+    text-align: justify;
 }
 
 /* Media Queries */
