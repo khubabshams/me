@@ -126,6 +126,15 @@ h2 {
     background-size: cover;
 }
 
+#articles-cover-image {
+    background-image: url("../images/kindle_article_bg.jpg");
+    width: 100%;
+    background-position: center;
+    height: var(--image-height);
+    position: sticky;
+    background-size: cover;
+}
+
 #books-cover-image {
     background-image: url("../images/books_bg.jpg");
     width: 100%;
@@ -362,19 +371,52 @@ footer li {
     text-align: justify;
 }
 
+/* Articles Page */
+#articles-list {
+    padding-left: var(--text-block-padding);
+    padding-right: var(--text-block-padding);
+}
+
+#articles-list h2 {
+    text-align: center;
+}
+
+#articles-list li {
+    margin-bottom: var(--bottom-margin);
+}
+
+#articles-list span {
+    text-align: left;
+}
+
+.article-name {
+    font-size: 120%;
+}
+
+.article-name a {
+    color: inherit;
+}
+
+.author::before {
+    content: "By: ";
+    font-weight: bold;
+}
+
 /* Books Page */
 #book-recommendations {
     padding-left: var(--text-block-padding);
     padding-right: var(--text-block-padding);
 }
-#book-recommendations h2{
+
+#book-recommendations h2 {
     text-align: center;
 }
 
-#book-recommendations li{
+#book-recommendations li {
     margin-bottom: var(--bottom-margin);
 }
-#book-recommendations span, #book-recommendations span {
+
+#book-recommendations span {
     text-align: left;
 }
 
@@ -386,10 +428,6 @@ footer li {
     color: inherit;
 }
 
-.author::before {
-    content: "By: ";
-    font-weight: bold;
-}
 
 /* About Page */
 #about-text {
