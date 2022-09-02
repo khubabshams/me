@@ -344,24 +344,26 @@ footer li {
 #social-links a:hover {
     color: var(--text-highlight-color);
 }
+
 /* About Page */
 #about-text {
     text-align: center;
     padding-left: var(--text-block-padding);
     padding-right: var(--text-block-padding);
 }
+
 #about-text p {
     text-align: justify;
 }
 
 /* Article Page */
-#article-text{
+#article-text {
     padding-left: var(--text-block-padding);
     padding-right: var(--text-block-padding);
     font-size: 120%;
 }
 
-#article-text h2{
+#article-text h2 {
     text-align: center;
 }
 
