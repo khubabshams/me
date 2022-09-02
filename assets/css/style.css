@@ -13,6 +13,8 @@
     /* Margins */
     --right-margin: 20px;
     --left-margin: 20px;
+    --bottom-margin: 20px;
+
 
     /* Padding */
     --menu-highlight-padding: 20px;
@@ -345,17 +347,6 @@ footer li {
     color: var(--text-highlight-color);
 }
 
-/* About Page */
-#about-text {
-    text-align: center;
-    padding-left: var(--text-block-padding);
-    padding-right: var(--text-block-padding);
-}
-
-#about-text p {
-    text-align: justify;
-}
-
 /* Article Page */
 #article-text {
     padding-left: var(--text-block-padding);
@@ -368,6 +359,46 @@ footer li {
 }
 
 #article-text p {
+    text-align: justify;
+}
+
+/* Books Page */
+#book-recommendations {
+    padding-left: var(--text-block-padding);
+    padding-right: var(--text-block-padding);
+}
+#book-recommendations h2{
+    text-align: center;
+}
+
+#book-recommendations li{
+    margin-bottom: var(--bottom-margin);
+}
+#book-recommendations span, #book-recommendations span {
+    text-align: left;
+}
+
+.book-name {
+    font-size: 120%;
+}
+
+.book-name a {
+    color: inherit;
+}
+
+.author::before {
+    content: "By: ";
+    font-weight: bold;
+}
+
+/* About Page */
+#about-text {
+    text-align: center;
+    padding-left: var(--text-block-padding);
+    padding-right: var(--text-block-padding);
+}
+
+#about-text p {
     text-align: justify;
 }
 
