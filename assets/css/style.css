@@ -18,6 +18,7 @@
 
     /* Padding */
     --menu-highlight-padding: 20px;
+    --menu-double-highlight-padding: 40px;
     --left-padding: 20px;
     --text-block-padding: 20%;
     --button-padding: 10px;
@@ -28,6 +29,7 @@
     --line-height: 20px;
     --highlight-border: 1px solid var(--text-highlight-color);
     --image-height: 400px;
+    --image-mobile-height: 500px;
 }
 
 /* Overall styling */
@@ -55,11 +57,21 @@ header {
     right: 0;
 }
 
-
 header a {
     color: inherit;
 }
 
+/* Logo */
+#logo {
+    font-family: 'Quattrocento Sans', sans-serif;
+    letter-spacing: var(--header-spacing);
+    float: left;
+    margin-left: var(--left-margin);
+}
+
+#logo:hover {
+    color: var(--primary-color);
+}
 
 nav a {
     z-index: 2;
@@ -82,24 +94,10 @@ h2 {
     letter-spacing: var(--header-spacing);
 }
 
-/* Logo */
-#logo {
-    font-family: 'Quattrocento Sans', sans-serif;
-    letter-spacing: var(--header-spacing);
-    float: left;
-    line-height: var(--line-height);
-    margin-left: var(--left-margin);
-}
-
-#logo:hover {
-    color: var(--primary-color);
-}
-
 /* Menus */
 #top-menu {
     letter-spacing: var(--header-spacing);
     float: right;
-    line-height: var(--line-height);
     margin-right: var(--right-margin);
 }
 
@@ -110,9 +108,13 @@ h2 {
     margin-right: var(--right-margin);
 }
 
-
 #top-menu a {
     text-decoration: none;
+}
+
+#top-menu,
+#logo {
+    line-height: var(--line-height);
 }
 
 /* Cover Images */
@@ -325,7 +327,7 @@ footer li {
 }
 
 #left-side-footer {
-    width: 60%;
+    width: 65%;
     float: left;
     margin: 0;
 }
@@ -441,3 +443,78 @@ footer li {
 }
 
 /* Media Queries */
+@media only screen and (max-width: 920px) {
+
+    #left-side-footer {
+        width: 90%;
+    }
+
+}
+
+/* Small Screens 623 and down */
+@media only screen and (max-width: 623px) {
+
+    #top-menu,
+    #logo {
+        line-height: normal;
+        float: none;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #top-menu li {
+        float: none;
+    }
+
+    header {
+        padding: var(--menu-double-highlight-padding);
+    }
+
+    nav a:hover {
+        padding: 0;
+    }
+
+    .quote {
+        font-size: 150%;
+    }
+
+    .card-text {
+        top: 0;
+        left: 0;
+        -webkit-transform: translate(-5%, -5%);
+        -ms-transform: translate(-5%, -5%);
+        transform: translate(-5%, -5%);
+    }
+
+    .article-brief-text {
+        font-size: 100%;
+    }
+
+    #home-cover-image,
+    #articles-cover-image,
+    #books-cover-image,
+    #about-cover-image,
+    #guideline-cover-image,
+    #acquiring-cover-image {
+        height: var(--image-mobile-height);
+    }
+
+    #left-side-footer {
+        width: 100%;
+        float: none;
+    }
+
+    #social-links,
+    #footer-logo,
+    #bottom-menu {
+        float: none;
+        line-height: normal;
+        margin: 0;
+        padding: var(--footer-padding);
+    }
+
+    #bottom-menu {
+        text-align: left;
+    }
+}
