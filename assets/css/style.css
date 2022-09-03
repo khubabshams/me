@@ -21,6 +21,8 @@
     --menu-double-highlight-padding: 40px;
     --left-padding: 20px;
     --text-block-padding: 20%;
+    --text-block-small-padding: 10%;
+    --text-block-smaller-padding: 5%;
     --button-padding: 10px;
     --footer-padding: 20px;
 
@@ -449,6 +451,25 @@ footer li {
         width: 90%;
     }
 
+    #article-text {
+        padding-left: var(--text-block-small-padding);
+        padding-right: var(--text-block-small-padding);
+    }
+
+    #articles-list {
+        padding-left: var(--text-block-small-padding);
+        padding-right: var(--text-block-small-padding);
+    }
+
+    #book-recommendations {
+        padding-left: var(--text-block-small-padding);
+        padding-right: var(--text-block-small-padding);
+    }
+
+    #about-text {
+        padding-left: var(--text-block-small-padding);
+        padding-right: var(--text-block-small-padding);
+    }
 }
 
 /* Small Screens 623 and down */
@@ -516,5 +537,25 @@ footer li {
 
     #bottom-menu {
         text-align: left;
+    }
+
+    #article-text {
+        padding-left: var(--text-block-smaller-padding);
+        padding-right: var(--text-block-smaller-padding);
+    }
+
+    #articles-list {
+        padding-left: var(--text-block-smaller-padding);
+        padding-right: var(--text-block-smaller-padding);
+    }
+
+    #book-recommendations {
+        padding-left: var(--text-block-smaller-padding);
+        padding-right: var(--text-block-smaller-padding);
+    }
+
+    #about-text {
+        padding-left: var(--text-block-smaller-padding);
+        padding-right: var(--text-block-smaller-padding);
     }
 }
