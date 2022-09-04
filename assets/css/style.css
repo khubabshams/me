@@ -285,7 +285,7 @@ h2 {
     font-weight: bold;
 }
 
-button {
+.article-button {
     background-color: var(--secondary-color);
     color: var(--text-on-secondary-color);
     border-radius: 0;
@@ -293,11 +293,11 @@ button {
     padding: var(--button-padding);
 }
 
-button i {
+.article-button i {
     color: var(--secondary-color);
 }
 
-button:hover {
+.article-button:hover {
     background-color: var(--primary-color);
     color: var(--text-on-primary-color);
 }
