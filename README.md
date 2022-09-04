@@ -1,72 +1,77 @@
-# Love Running
+# theMinimalism
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+theMinimalism is a website that helps people to simplify thier lives, and motivate them to pursue achiveing more goals by using less things. theMinimalist will be usefull for people who wants to improve the quality of thier lives and it provide them some lifehack techniques for more simplicity, productivity, and valuable goals. 
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
-
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](/docs/different_screen_sizes.PNG)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. 
+1-You will need to explain what value each of the features provides for the user, 
+2-focusing on who this website is for,
+3-what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Quotes__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The home page includes some quotes to help user understand what Minimalism is and it works as an encouragment to adopt minimalism.
+  - Credit for the quote owner/ source has been added below each quote. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Definition Quote](/docs/screenshots/quote-1.PNG)
 
-- __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+![Motivation Quote](/docs/screenshots/quote-2.PNG)
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __The Card Slides__
+ 
+  - Two cards in the middle of home page with slide text to catch visitor's attention.
+  - The first one contains reasons about why minimalism lifestyle is important and the other is about how to adopt minimalism.
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+![Slide Card Left](/docs/screenshots/slide-card-left.PNG)
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
+![Slide Card Right](/docs/screenshots/slide-card-right.PNG)
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+- __The Article Brief__
+ 
+  - Included inisde the home page as well to give the visitor the idea of the article in a few lines and image from the full article.
+  - Visitors can easily navigate to read the whole article by clicking on 'Full Article' button.
 
-- __The Footer__ 
+ ![Article Brief](/docs/screenshots/article-brief.PNG)
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+- __Articles__
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  - The articles page is a list of theMinimalism articles sorted in categories: Recently Added and Most Popular, the author of each article has been mentioned. 
+  - When the user click on one of the article it take him to the full article page. 
 
-- __Gallery__
+![Articles](/docs/screenshots/articles-page.PNG)
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Full Article](/docs/screenshots/article-full.PNG)
 
-- __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+- __Books__
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+   - The books page is a list of book recommendations provided by theMinimalism, the author of each book has been mentioned. 
+   - The link of each book refers the user to it's Goodreads profile where he can find reviews, quotes, and links to buy the book if he like it. 
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+![Book Recommendations](/docs/screenshots/books-page.PNG)
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- __About__
+
+   - About page contains information about thMinimalism is built for, and who is the site owner and telling his story of founding theMinimalism. 
+
+![About Us](/docs/screenshots/about-page.PNG)
+
 
 ### Features Left to Implement
 
-- Another feature idea
+- Mailing List Subscription: send frequent users emails of the new articles, books, and events. 
+
+- Minimalists forum: where users can share thier experiences.
 
 ## Testing 
 
