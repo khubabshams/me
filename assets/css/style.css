@@ -47,6 +47,10 @@ body {
     color: var(--text-on-primary-color);
 }
 
+a {
+    color: inherit;
+}
+
 /* Header */
 header {
     width: 100%;
@@ -193,7 +197,7 @@ h2 {
 }
 
 .strike {
-    text-decoration:line-through;
+    text-decoration: line-through;
 }
 
 /* Cards */
@@ -285,7 +289,7 @@ h2 {
     font-weight: bold;
 }
 
-.article-button {
+a.article-button {
     background-color: var(--secondary-color);
     color: var(--text-on-secondary-color);
     border-radius: 0;
@@ -293,11 +297,11 @@ h2 {
     padding: var(--button-padding);
 }
 
-.article-button i {
+a.article-button i {
     color: var(--secondary-color);
 }
 
-.article-button:hover {
+a.article-button:hover {
     background-color: var(--primary-color);
     color: var(--text-on-primary-color);
 }
@@ -325,7 +329,6 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: inherit;
 }
 
 footer li {
@@ -401,9 +404,6 @@ footer li {
     font-size: 120%;
 }
 
-.article-name a {
-    color: inherit;
-}
 
 .author::before {
     content: "By: ";
@@ -431,11 +431,6 @@ footer li {
 .book-name {
     font-size: 120%;
 }
-
-.book-name a {
-    color: inherit;
-}
-
 
 /* About Page */
 #about-text {
