@@ -52,7 +52,7 @@ theMinimalism is a website that helps people to simplify their lives and motivat
 - __The Article Brief__
  
   - Included inside the home page as well to give the visitor the idea of the article in a few lines and images from the full article.
-  - Visitors can easily navigate to read the whole article by clicking on the 'Full Article button.
+  - Visitors can easily navigate to read the whole article by clicking on the 'Full Article' button.
  
  <kbd>![Article Brief](/docs/screenshots/article-brief.PNG)</kbd>
  
