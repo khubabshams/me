@@ -179,15 +179,16 @@ h2 {
     background-size: cover;
 }
 
-/* Definition Quote */
+/* Quotes */
 .quote {
     text-align: center;
     font-size: 250%;
+    font-weight: lighter;
 }
 
 .quote::before {
     content: "\201C";
-    font-weight: bold;
+    font-weight: normal;
     font-size: 250%;
 }
 
