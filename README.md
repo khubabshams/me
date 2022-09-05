@@ -89,14 +89,68 @@ theMinimalism is a website that helps people to simplify thier lives, and motiva
 
 ## Testing 
 
-In this section, you need to 
-1- convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
-2- in this part you will want to go over all of your project’s features and ensure that they all work as intended, 
-3- with the project providing an easy and straightforward way for the users to achieve their goals.
-4- In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-5- You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- Site has been tested in different browsers and screen sizes using Google Chrome developer tools and on Firefox and Microsoft browsers as well with no error returned, test conducted also on mobile iphone 6 (1334-by-750-pixel resolution at 326 ppi) and it's functioning as required.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Features Testing
+
+#### Minimal Design
+- An important aspect of building this site to be designed in minimal way, which means less colours; and speces are made everywhere to provide a comfortable site.
+- Simple Color Palette:
+<kbd>![Site Color Palette](/docs/color_palette.PNG)</kbd>
+
+#### Home Page
+- Cover video has been replaced by an image -and changed in mockups as well- after noticing it's not matching the overall images colors of the home page.
+- Header has been set to be fixed after testing to ease the site navigation journey.
+
+#### Quotes
+- Quotes are eye catching, have different font size value depending on the screen size.
+
+#### Card Slides
+- Text on cards shown by hovering the pointer over the image area for desktop and by clicking on the image for touch screen devices.
+
+#### Article Brief
+- Image fits the slice of the brief area, text esnured to be readable and hovering on the 'Full Article' button changes it's color and shows a 'right arrow' as a reference of new page will be open on button click. 
+
+#### Articles
+- Cover image has been replaced by a smaller size image to improve the performance of the articles page after testing on Lighthouse.
+
+#### Books 
+- All links on the book recommendations page has been tested and it opens the intended Goodreads profile in new tab, aria-label has been added.  
+
+#### Text Blocks
+- Text blocks like articles, book recommendation, and about pages has been carefully formatted in the center of the screen with justified text for better readability and helps the user to focus on the content.
+
+<kbd>![Article Text Block](/docs/screenshots/article-full-2.PNG)</kbd>
+
+### Interesting Bugs 
+- Below some bugs which I found interesting to discover and resolve:
+
+#### URLs on the manifest is not working
+
+- Bug: URLs of Favicon and the index page in the site manifest file not found by the client browser, it cause a console error of 404.
+- Discovered by: testing by the dev tools. 
+- Action: it seemed as github pages access any link started by '/' as it located in 'https://username.github.io/' directly and it ignores the repository name in the url 'https://username.github.io/repo', I used the files absolute path to Favicon and index page.
+- Result: problem solved and browser are able now to access those files.
+
+<kbd>![Manifest Issue](/docs/tests/manifest-issue.PNG)</kbd>
+
+
+#### Button cannot be a descendent of an anchor tag
+
+- Bug: using anchor as a parent of button in 'Full Article' action, to get the button style and the anchor functionality.
+- Discovered by: the W3C validator. 
+- Action: after a research I found that each one of these tags has a different purpose; button used for interactive control of submitting or performing an action on the page itself, and the anchor for navigation, "...click to do both of those things at once" credit goes to [Quentin on Stackoverflow](https://stackoverflow.com/questions/71442188/why-shouldnt-the-button-element-be-a-descendant-of-the-anchor-element), I removed the button tag and styled the anchor to look like a button.
+- Result: it performs funcionally as an anchor and provides the same look of the button.
+
+#### Div cannot be a descendent of a paragraph tag
+
+- Bug: in quotes I added a div for credit inside the paragraph tag, in order to style it in a different format than the rest of the paragraph.
+- Discovered by: the W3C validator. 
+- Action: I moved the div outside of the paragraph tags.
+- Result: it has same style right now and with no error raised in the W3C validator.
+
+<kbd>![Div Inside P Tags](/docs/tests/resolved-quotes-issue.PNG)</kbd>
+
 
 ### Lighthouse Report
 
@@ -158,6 +212,7 @@ The live link can be found here - https://kshamse.github.io/minimalism/index.htm
 - The slide card snippet was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp).
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 - Readme file created by using [Code Institute Readme Template](https://github.com/Code-Institute-Solutions/readme-template).
+- A lot of issues has been resolved by the help of [Stackoverflow](https://stackoverflow.com/) contributors.
 
 ### Media
 
