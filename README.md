@@ -2,25 +2,25 @@
 
 theMinimalism is a website that helps people to simplify thier lives, and motivate them to pursue achiveing more goals by using less things. theMinimalist will be usefull for people who wants to improve the quality of thier lives and it provide them some lifehack techniques for more simplicity, productivity, and valuable goals. 
 
-![Responsive Mockup](/docs/different_screen_sizes.PNG)
+<kbd>![Responsive Mockup](/docs/different_screen_sizes.PNG)</kbd>
 
 ## Mockups
 
 - __Home Screen__
 
-![Home Mockup](/docs/mockups/home.PNG)
+<kbd>![Home Mockup](/docs/mockups/home.PNG)</kbd>
 
 - __Articles Screen__
 
-![Articles Mockup](/docs/mockups/articles.PNG)
+<kbd>![Articles Mockup](/docs/mockups/articles.PNG)</kbd>
 
 - __Books Screen__
 
-![Books Mockup](/docs/mockups/books.PNG)
+<kbd>![Books Mockup](/docs/mockups/books.PNG)</kbd>
 
 - __About Screen__
 
-![About Mockup](/docs/mockups/about.PNG)
+<kbd>![About Mockup](/docs/mockups/about.PNG)</kbd>
 
 
 ## Features 
@@ -32,10 +32,10 @@ theMinimalism is a website that helps people to simplify thier lives, and motiva
   - The home page includes some quotes to help user understand what Minimalism is and it works as an encouragment to adopt minimalism.
   - Credit for the quote owner/ source has been added below each quote. 
 
-![Definition Quote](/docs/screenshots/quote-1.PNG)
+<kbd>![Definition Quote](/docs/screenshots/quote-1.PNG)</kbd>
 
 
-![Motivation Quote](/docs/screenshots/quote-2.PNG)
+<kbd>![Motivation Quote](/docs/screenshots/quote-2.PNG)</kbd>
 
 
 - __The Card Slides__
@@ -43,10 +43,10 @@ theMinimalism is a website that helps people to simplify thier lives, and motiva
   - Two cards in the middle of home page with slide text to catch visitor's attention.
   - The first one contains reasons about why minimalism lifestyle is important and the other is about how to adopt minimalism.
 
-![Slide Card Left](/docs/screenshots/slide-card-left.PNG)
+<kbd>![Slide Card Left](/docs/screenshots/slide-card-left.PNG)</kbd>
 
 
-![Slide Card Right](/docs/screenshots/slide-card-right.PNG)
+<kbd>![Slide Card Right](/docs/screenshots/slide-card-right.PNG)</kbd>
 
 
 - __The Article Brief__
@@ -54,17 +54,17 @@ theMinimalism is a website that helps people to simplify thier lives, and motiva
   - Included inisde the home page as well to give the visitor the idea of the article in a few lines and image from the full article.
   - Visitors can easily navigate to read the whole article by clicking on 'Full Article' button.
 
- ![Article Brief](/docs/screenshots/article-brief.PNG)
+ <kbd>![Article Brief](/docs/screenshots/article-brief.PNG)</kbd>
 
 - __Articles__
 
   - The articles page is a list of theMinimalism articles sorted in categories: Recently Added and Most Popular, the author of each article has been mentioned. 
   - When the user click on one of the article it take him to the full article page. 
 
-![Articles](/docs/screenshots/articles-page.PNG)
+<kbd>![Articles](/docs/screenshots/articles-page.PNG)</kbd>
 
 
-![Full Article](/docs/screenshots/article-full.PNG)
+<kbd>![Full Article](/docs/screenshots/article-full.PNG)</kbd>
 
 
 - __Books__
@@ -72,13 +72,13 @@ theMinimalism is a website that helps people to simplify thier lives, and motiva
    - The books page is a list of book recommendations provided by theMinimalism, the author of each book has been mentioned. 
    - The link of each book refers the user to it's Goodreads profile where he can find reviews, quotes, and links to buy the book if he like it. 
 
-![Book Recommendations](/docs/screenshots/books-page.PNG)
+<kbd>![Book Recommendations](/docs/screenshots/books-page.PNG)</kbd>
 
 - __About__
 
    - About page contains information about thMinimalism is built for, and who is the site owner and telling his story of founding theMinimalism. 
 
-![About Us](/docs/screenshots/about-page.PNG)
+<kbd>![About Us](/docs/screenshots/about-page.PNG)</kbd>
 
 
 ### Features Left to Implement
@@ -104,23 +104,23 @@ If this section grows too long, you may want to split it off into a separate fil
 
 #### Desktop
 
- ![Home](/docs/tests/index.PNG)
+ <kbd>![Home](/docs/tests/index.PNG)</kbd>
 
- ![Articles](/docs/tests/articles.PNG)
+ <kbd>![Articles](/docs/tests/articles.PNG)</kbd>
 
- ![Books](/docs/tests/books.PNG)
+ <kbd>![Books](/docs/tests/books.PNG)</kbd>
 
- ![About](/docs/tests/about.PNG) 
+ <kbd>![About](/docs/tests/about.PNG) </kbd>
 
 #### Mobile
 
- ![Home on Mobile](/docs/tests/index-mobile.PNG)
+ <kbd>![Home on Mobile](/docs/tests/index-mobile.PNG)</kbd>
 
- ![Articles on Mobile](/docs/tests/articles-mobile.PNG)
+ <kbd>![Articles on Mobile](/docs/tests/articles-mobile.PNG)</kbd>
 
- ![Books on Mobile](/docs/tests/books-mobile.PNG)
+ <kbd>![Books on Mobile](/docs/tests/books-mobile.PNG)</kbd>
 
- ![About on Mobile](/docs/tests/about-mobile.PNG) 
+ <kbd>![About on Mobile](/docs/tests/about-mobile.PNG) </kbd>
 
 ### Validator Testing 
 
@@ -129,7 +129,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkshamse.github.io%2Fminimalism%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-![Jigsaw-Validator](/docs/tests/jigsaw-css-test.PNG)
+<kbd>![Jigsaw-Validator](/docs/tests/jigsaw-css-test.PNG)</kbd>
 
 
 ## Deployment
