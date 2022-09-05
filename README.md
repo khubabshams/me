@@ -1,6 +1,6 @@
 # theMinimalism
  
-theMinimalism is a website that helps people to simplify their lives and motivates them to pursue achieving more goals by using fewer things. theMinimalist will be useful for people who want to improve the quality of their lives and it provides them with some lifehack techniques for more simplicity, productivity, and valuable goals.
+theMinimalism is a website that helps people to simplify their lives and motivates them to pursue achieving more goals by using fewer things. theMinimalism will be useful for people who want to improve the quality of their lives and it provides them with some lifehack techniques for more simplicity, productivity, and valuable goals.
  
 <kbd>![Responsive Mockup](/docs/different_screen_sizes.PNG)</kbd>
  
