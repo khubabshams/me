@@ -193,7 +193,7 @@ theMinimalism is a website that helps people to simplify their lives and motivat
   - From the source section drop-down menu, select the Main Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
  
-The live link can be found here - https://kshamse.github.io/minimalism/index.html
+The live link can be found here - https://khubabshams.github.io/minimalism/index.html
  
  
 ## Credits
