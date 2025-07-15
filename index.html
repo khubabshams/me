@@ -32,7 +32,7 @@
     <!-- Header: Logo and the Navbar -->
     <header>
         <!-- Logo -->
-        <a href="#hero">
+        <a href="#home">
             <h1 id="logo">Khubab Shams</h1>
         </a>
 
@@ -40,7 +40,7 @@
         <nav>
             <ul id="top-menu">
                 <li class="active">
-                    <a href="#hero">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
                     <a href="#skills">Skills</a>
@@ -56,7 +56,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="hero">
+    <section id="home">
         <img src="img/avatar-profile.png" alt="Profile avatar" class="profile-img">
         <h3 class="subtitle">Software Developer | Odoo ERP Developer</h3>
         <p class="intro">Python and Odoo ERP developer with hands-on experience building business solutions, web apps, and integrations. Skilled in Odoo, Python and familiar with mobile and web development such as Django, React, Flutter, and cloud deployment. Passionate about delivering robust, user-focused products.</p>
@@ -163,7 +163,7 @@
     <footer>
         <div id="left-side-footer">
             <!-- Footer Logo -->
-            <a href="#hero">
+            <a href="#home">
                 <strong id="footer-logo">Khubab Shams</strong>
             </a>
 
@@ -186,7 +186,7 @@
             <!-- Bottom Menu -->
             <ul id="bottom-menu">
                 <li>
-                    <a href="#hero">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
                     <a href="#skills">Skills</a>
@@ -204,6 +204,37 @@
     <!-- Font Awesome Script-->
     <script src="https://kit.fontawesome.com/293685c6a6.js" crossorigin="anonymous"></script>
     <script>
+      // Scroll-based active nav highlighting
+      document.addEventListener('DOMContentLoaded', function() {
+        const sections = ['home', 'skills', 'projects', 'contact'];
+        const navLinks = sections.map(id => document.querySelector(`#top-menu a[href="#${id}"]`));
+
+        // IntersectionObserver for scroll-based highlighting
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              navLinks.forEach(link => link.parentElement.classList.remove('active'));
+              const activeLink = document.querySelector(`#top-menu a[href="#${entry.target.id}"]`);
+              if (activeLink) activeLink.parentElement.classList.add('active');
+            }
+          });
+        }, {
+          threshold: 0.5
+        });
+        sections.forEach(id => {
+          const section = document.getElementById(id);
+          if (section) observer.observe(section);
+        });
+
+        // Click-based highlighting for instant feedback
+        navLinks.forEach(link => {
+          link.addEventListener('click', function() {
+            navLinks.forEach(l => l.parentElement.classList.remove('active'));
+            this.parentElement.classList.add('active');
+          });
+        });
+      });
+
       // Use hardcoded EmailJS params for static frontend
       (function() {
         emailjs.init('ap8wKb5uCooYnSoEl');
