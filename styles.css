@@ -108,6 +108,7 @@ footer {
 }
 /* Wider space for summary in hero section */
 .intro {
+    text-align: justify;
     max-width: 75vw;
     margin: 0 auto;
 }
