@@ -108,7 +108,7 @@ footer {
 }
 /* Wider space for summary in hero section */
 .intro {
-    max-width: 700px;
+    max-width: 75vw;
     margin: 0 auto;
 }
 @media (max-width: 600px) {
