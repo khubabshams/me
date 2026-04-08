@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Minimalism a site to tell people what Minimalism is, and why it's important">
-    <meta name="keywords" content="minimalism, essentialism, declutter, digital minimalism">
-
-    <!-- Fav Icon and Manifest: Best Practice -->
+    <meta name="description" content="Portfolio of Khubab Shams - Data Science and IT student, software developer, and builder of practical digital products.">
+    <meta name="keywords" content="Khubab Shams, portfolio, data science, IT student, software developer, Odoo, Python">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -16,242 +13,152 @@
     <link rel="shortcut icon" href="favicon.ico">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    
-    <!-- Import Stylesheet -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- EmailJS SDK -->
+    <meta name="theme-color" content="#efefef">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-
-    <!-- Tab Title -->
-    <title>Khubab Shams</title>
+    <title>Khubab Shams | Data Science & IT Portfolio</title>
 </head>
-
 <body>
-
-    <!-- Header: Logo and the Navbar -->
-    <header>
-        <!-- Logo -->
-        <a href="#home">
+    <header class="site-header">
+        <a href="#home" aria-label="Back to top">
             <h1 id="logo">Khubab Shams</h1>
         </a>
-
-        <!-- Navbar -->
-        <nav>
+        <nav aria-label="Main navigation">
             <ul id="top-menu">
-                <li class="active">
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home">
-        <img src="img/avatar-profile.png" alt="Profile avatar" class="profile-img">
-        <h3 class="subtitle">Odoo ERP Developer | Data Science | Software Development</h3>
-        <p class="intro">I am a dedicated Software Developer,  with a Bachelor's degree in Management Information Systems, and currently pursuing a Master's degree in Data Science at the University of Aberdeen. With over 6 years of experience, I specialise in Odoo ERP development, Python programming, and JavaScript, delivering solutions that have improved operational efficiency by playing a key role in the successful introduction of ERP to a large organisation with over 1000 employees and 250 active users. I am also skilled in Linux, Docker, and have successfully integrated applications with physical devices.</p>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>Odoo</li>
-            <li>PostgreSQL</li>
-            <li>ERP</li>
-            <li>Git Version Control</li>
-            <li>SQL</li>
-            <li>Linux</li>
-            <li>Scrum</li>
-            <li>Heroku</li>
-            <li>Django</li>
-            <li>React</li>
-            <li>Android</li>
-            <li>Cursor</li>
-            <li>Wolfram</li>
-            <li>Azure</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Integrations</li>
-            <li>HL7</li>
-            <li>Database Design</li>
-            <li>Ubuntu</li>
-        </ul>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects-container">
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Endorse-Plus</h3>
-                    <p>Established an online platform for work-related endorsements and recommendations (<a href="https://github.com/khubabshams/endorse-plus-frontend" target="_blank">frontend: GitHub</a> - <a href="https://github.com/khubabshams/endorse-plus-backend" target="_blank">backend API: GitHub</a>).<br>Technologies Used: Python, Django Rest Framework, React, Heroku.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Qpharma</h3>
-                    <p>Developed a Flutter Android app, integrated with Odoo backend to streamline supply chain operations (<a href="https://apkpure.com/qpharma/com.qpharma.qpharma" target="_blank">Apkpure App Store</a>).<br>Technologies Used: Android, Flutter, Odoo.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Owline</h3>
-                    <p>Crafted an online Q&A forum and content improvement platform (<a href="https://github.com/khubabshams/owline" target="_blank">GitHub</a>).<br>Technologies Used: Python, Django, Bootstrap, Heroku.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>PharmaQuiz App</h3>
-                    <p>Developed a Kotlin Android app to aid pharmacist exam preparation (<a href="https://github.com/khubabshams/pharmaquiz" target="_blank">GitHub</a> & <a href="https://pharmaquiz.uptodown.com/android" target="_blank">UpToDown App Store</a>).<br>Technologies Used: Android, Kotlin.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Database Auto Backup</h3>
-                    <p>Created a module for automated database backups (<a href="https://github.com/khubabshams/database-auto-backup" target="_blank">GitHub</a> & <a href="https://apps.odoo.com/apps/modules/14.0/database_autobackup/" target="_blank">Odoo App Store</a>).<br>Technologies Used: Odoo.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Regions Quiz</h3>
-                    <p>Designed an interactive geography knowledge site (<a href="https://github.com/khubabshams/regions-quiz" target="_blank">GitHub</a> & <a href="https://khubabshams.github.io/regions-quiz/" target="_blank">Live Site</a>).<br>Technologies Used: Vanilla Javascript, HTML, CSS, Firestore.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Minimalism</h3>
-                    <p>Built a website promoting simplicity (<a href="https://github.com/khubabshams/minimalism" target="_blank">GitHub</a> & <a href="https://khubabshams.github.io/minimalism/" target="_blank">Live Site</a>).<br>Technologies Used: HTML, CSS.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Portfolio Website</h3>
-                    <p>This portfolio site you are viewing. Created as a basic website and fully customized by Cursor.<br>Technologies Used: HTML, CSS, JavaScript.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <form class="contact-form" id="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-        <div class="contact-email">
-            <a href="mailto:khubabShams@gmail.com">khubabShams@gmail.com</a>
-        </div>
-    </section>
-
-    <!-- Footer: Logo, social networks links, and menu -->
-    <footer>
-        <div id="left-side-footer">
-            <!-- Footer Logo -->
-            <a href="#home">
-                <strong id="footer-logo">Khubab Shams</strong>
-            </a>
-
-            <!-- Social Networks Links -->
-            <ul id="social-links">
-                <li>
-                    <a href="https://github.com/khubabshams" target="_blank" rel="noopener noreferrer"
-                        aria-label="Find me on Github (Opens in a new tab)">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/khubabshams/" target="_blank" rel="noopener noreferrer"
-                        aria-label="Connect with me on LinkedIn (Opens in a new tab)">
+    <main>
+        <section id="home" class="section section-home">
+            <div class="hero-content">
+                <h2 class="subtitle">Data Science | Software Development</h2>
+                <p class="intro">I build practical digital solutions at the intersection of software engineering, data science, and IT. With 6+ years of experience in Odoo ERP, Python, and JavaScript, I focus on transforming complex workflows into clear, efficient systems that teams can rely on.</p>
+                <p class="mission">If you are building a website or exploring data science and software development, I would be happy to help. Feel free to reach out.
+                    <a class="mission-linkedin" href="https://www.linkedin.com/in/khubabshams/" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile (opens in a new tab)">
                         <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
                     </a>
-                </li>
-            </ul>
+                </p>
+            </div>
+            <img src="img/avatar-profile.png" alt="Profile avatar" class="profile-img">
+        </section>
 
-            <!-- Bottom Menu -->
-            <ul id="bottom-menu">
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Odoo</li>
+                <li>PostgreSQL</li>
+                <li>ERP</li>
+                <li>Git Version Control</li>
+                <li>SQL</li>
+                <li>Linux</li>
+                <li>Scrum</li>
+                <li>Heroku</li>
+                <li>Django</li>
+                <li>React</li>
+                <li>Android</li>
+                <li>Cursor</li>
+                <li>Wolfram</li>
+                <li>Azure</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Integrations</li>
+                <li>HL7</li>
+                <li>Database Design</li>
+                <li>Ubuntu</li>
             </ul>
-        </div>
-    </footer>
+        </section>
 
-    <!-- Font Awesome Script-->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <article class="project-card">
+                    <div class="project-text">
+                        <h3>Endorse-Plus</h3>
+                        <p>Established an online platform for work-related endorsements and recommendations (<a href="https://github.com/khubabshams/endorse-plus-frontend" target="_blank" rel="noopener noreferrer">frontend: GitHub</a> - <a href="https://github.com/khubabshams/endorse-plus-backend" target="_blank" rel="noopener noreferrer">backend API: GitHub</a>).<br>Technologies Used: Python, Django Rest Framework, React, Heroku.</p>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-text">
+                        <h3>Qpharma</h3>
+                        <p>Developed a Flutter Android app, integrated with Odoo backend to streamline supply chain operations (<a href="https://apkpure.com/qpharma/com.qpharma.qpharma" target="_blank" rel="noopener noreferrer">Apkpure App Store</a>).<br>Technologies Used: Android, Flutter, Odoo.</p>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-text">
+                        <h3>Owline</h3>
+                        <p>Crafted an online Q&amp;A forum and content improvement platform (<a href="https://github.com/khubabshams/owline" target="_blank" rel="noopener noreferrer">GitHub</a>).<br>Technologies Used: Python, Django, Bootstrap, Heroku.</p>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-text">
+                        <h3>PharmaQuiz App</h3>
+                        <p>Developed a Kotlin Android app to aid pharmacist exam preparation (<a href="https://github.com/khubabshams/pharmaquiz" target="_blank" rel="noopener noreferrer">GitHub</a> &amp; <a href="https://pharmaquiz.uptodown.com/android" target="_blank" rel="noopener noreferrer">UpToDown App Store</a>).<br>Technologies Used: Android, Kotlin.</p>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-text">
+                        <h3>Database Auto Backup</h3>
+                        <p>Created a module for automated database backups (<a href="https://github.com/khubabshams/database-auto-backup" target="_blank" rel="noopener noreferrer">GitHub</a> &amp; <a href="https://apps.odoo.com/apps/modules/14.0/database_autobackup/" target="_blank" rel="noopener noreferrer">Odoo App Store</a>).<br>Technologies Used: Odoo.</p>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-text">
+                        <h3>Regions Quiz</h3>
+                        <p>Designed an interactive geography knowledge site (<a href="https://github.com/khubabshams/regions-quiz" target="_blank" rel="noopener noreferrer">GitHub</a> &amp; <a href="https://khubabshams.github.io/regions-quiz/" target="_blank" rel="noopener noreferrer">Live Site</a>).<br>Technologies Used: Vanilla Javascript, HTML, CSS, Firestore.</p>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-text">
+                        <h3>Minimalism</h3>
+                        <p>Built a website promoting simplicity (<a href="https://github.com/khubabshams/minimalism" target="_blank" rel="noopener noreferrer">GitHub</a> &amp; <a href="https://khubabshams.github.io/minimalism/" target="_blank" rel="noopener noreferrer">Live Site</a>).<br>Technologies Used: HTML, CSS.</p>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-text">
+                        <h3>Portfolio Website</h3>
+                        <p>This portfolio site you are viewing. Created as a basic website and fully customized by Cursor.<br>Technologies Used: HTML, CSS, JavaScript.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="section-contact-layout">
+                <form class="contact-form" id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <aside class="contact-meta" aria-label="Additional contact details">
+                    <h3>Work with me</h3>
+                    <div class="contact-item">
+                        <p class="label">Social</p>
+                        <p>
+                            <a href="https://github.com/khubabshams" target="_blank" rel="noopener noreferrer">GitHub Profile (@khubabshams)</a>
+                            <br>
+                            <a href="https://www.linkedin.com/in/khubabshams/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <p class="label">Email</p>
+                        <p><a href="mailto:khubabShams@gmail.com">khubabShams@gmail.com</a></p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
     <script src="https://kit.fontawesome.com/293685c6a6.js" crossorigin="anonymous"></script>
-    <script>
-      // Scroll-based active nav highlighting
-      document.addEventListener('DOMContentLoaded', function() {
-        const sections = ['home', 'skills', 'projects', 'contact'];
-        const navLinks = sections.map(id => document.querySelector(`#top-menu a[href="#${id}"]`));
-
-        // IntersectionObserver for scroll-based highlighting
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              navLinks.forEach(link => link.parentElement.classList.remove('active'));
-              const activeLink = document.querySelector(`#top-menu a[href="#${entry.target.id}"]`);
-              if (activeLink) activeLink.parentElement.classList.add('active');
-            }
-          });
-        }, {
-          threshold: 0.5
-        });
-        sections.forEach(id => {
-          const section = document.getElementById(id);
-          if (section) observer.observe(section);
-        });
-
-        // Click-based highlighting for instant feedback
-        navLinks.forEach(link => {
-          link.addEventListener('click', function() {
-            navLinks.forEach(l => l.parentElement.classList.remove('active'));
-            this.parentElement.classList.add('active');
-          });
-        });
-      });
-
-      // Use hardcoded EmailJS params for static frontend
-      (function() {
-        emailjs.init('ap8wKb5uCooYnSoEl');
-      })();
-
-      document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        emailjs.sendForm('service_av1uj1r', 'template_91ekwcq', this)
-          .then(function() {
-            alert('Message sent successfully!');
-            document.getElementById('contact-form').reset();
-          }, function(error) {
-            alert('Failed to send message. Please try again later.');
-          });
-      });
-    </script>
+    <script src="assets/js/main.js"></script>
 </body>
-
 </html>
