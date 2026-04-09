@@ -42,4 +42,4 @@ This site showcases skills, experience, and projects in software development, da
 Deploy as a static website on GitHub Pages, Netlify, Vercel, or any static host.
 
 ## Contact
-Use the contact form on the site or email [khubabShams@gmail.com](mailto:khubabShams@gmail.com).
+Use the contact form on the site or email [me@kshams.uk](mailto:me@kshams.uk).
