@@ -10,3 +10,9 @@ cloudinary_python.txt
 
 # Ignore environment variable files
 .env
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
