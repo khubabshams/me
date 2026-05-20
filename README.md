@@ -1,6 +1,6 @@
 # Khubab Shams - Portfolio Website
 
-A minimal, responsive personal portfolio with Islamic and Arabic calligraphy inspired visuals, built for a data science and IT student profile.
+A minimal, responsive personal portfolio, built for a data science and IT student profile.
 
 ## Overview
 This site showcases skills, experience, and projects in software development, data science, and IT. It keeps a clean structure while preserving a functional EmailJS contact form.
