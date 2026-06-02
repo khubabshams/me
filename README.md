@@ -6,7 +6,6 @@ A minimal, responsive personal portfolio, built for a data science and IT studen
 This site showcases skills, experience, and projects in software development, data science, and IT. It keeps a clean structure while preserving a functional EmailJS contact form.
 
 ## Features
-- Minimal Arabic-inspired visual design
 - Portfolio sections for skills and projects
 - Working contact form using EmailJS
 - Social links (GitHub and LinkedIn)
@@ -23,6 +22,7 @@ This site showcases skills, experience, and projects in software development, da
 ├── img/
 │   └── avatar-profile.png
 ├── index.html
+├── services.html
 ├── site.webmanifest
 ├── favicon files...
 └── README.md
