@@ -457,48 +457,48 @@ main {
     }
 }
 
-/* Unified services page theme */
-.section-service-callout {
-    padding: 2.5rem 0;
-}
-
+/* Unified services page theme (subtle in hero) */
 .service-callout {
     display: grid;
-    gap: 1rem;
-    padding: 2rem;
-    background: rgba(255, 255, 255, 0.95);
-    border: 1px solid #d8d8d8;
-    border-radius: 14px;
+    gap: 0.6rem;
+    padding: 1rem;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    align-self: start;
+    justify-self: end;
+    max-width: 360px;
 }
 
 .service-callout h2,
 .services-header h2 {
     margin: 0;
-    font-size: clamp(2rem, 3vw, 2.6rem);
-    line-height: 1.05;
-    color: var(--text);
+    font-size: clamp(1.25rem, 2.4vw, 1.6rem);
+    line-height: 1.1;
+    color: var(--muted);
+    font-weight: 600;
 }
 
 .services-label,
 .service-callout .services-label {
     margin: 0;
-    font-size: 0.82rem;
-    letter-spacing: 0.18em;
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: #555;
+    color: var(--muted);
 }
 
 .services-copy,
 .service-callout-copy {
     margin: 0;
-    color: #222;
-    font-size: 1rem;
-    line-height: 1.7;
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
 }
 
 .services-price {
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--accent);
 }
@@ -571,7 +571,7 @@ main {
     display: grid;
     grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
     gap: 2.2rem;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
 }
 
@@ -619,16 +619,6 @@ main {
 .mission-linkedin:hover {
     border-color: #9db8dd;
     background: #f7fbff;
-}
-
-.profile-img {
-    width: clamp(220px, 28vw, 320px);
-    aspect-ratio: 4 / 5;
-    object-fit: cover;
-    border-radius: 8px;
-    justify-self: end;
-    border: 1px solid #e0e0e0;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
 }
 
 #skills .skills-list {
@@ -805,9 +795,13 @@ main {
         gap: 1.2rem;
     }
 
-    .profile-img {
+    .service-callout {
         justify-self: start;
-        width: min(360px, 100%);
+        width: 100%;
+        max-width: none;
+        padding: 1rem;
+        background: transparent;
+        border: 1px solid rgba(0,0,0,0.04);
     }
 
     .project-card {
