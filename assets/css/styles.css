@@ -253,9 +253,11 @@ main {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background: var(--accent);
-    color: #fff;
-    font-weight: 700;
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 0.95rem;
 }
 
 .services-cta {
@@ -394,6 +396,64 @@ main {
 
     .case-study-preview {
         height: 250px;
+    }
+}
+
+/* Layout for How It Works: horizontal on large screens, vertical on small screens */
+@media (min-width: 981px) {
+    .process-steps {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    .process-steps li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.6rem;
+        padding: 1rem;
+        background: #fff;
+        border: 1px solid #d7dde6;
+        border-radius: 12px;
+    }
+
+    .process-steps li .step-number {
+        width: 2.6rem;
+        height: 2.6rem;
+        font-size: 1rem;
+        border: 1px solid var(--line);
+        color: var(--text);
+        background: transparent;
+        font-weight: 600;
+    }
+}
+
+/* Make the package-pages display horizontally on wide screens and stack on small screens */
+@media (min-width: 981px) {
+    .package-pages {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    .package-pages li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.6rem;
+        padding: 1rem;
+        background: #fff;
+        border: 1px solid #d7dde6;
+        border-radius: 12px;
+    }
+
+    .package-pages li strong {
+        font-size: 1.05rem;
     }
 }
 
