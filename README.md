@@ -19,8 +19,6 @@ This site showcases skills, experience, and projects in software development, da
 │   │   └── styles.css
 │   └── js/
 │       └── main.js
-├── img/
-│   └── avatar-profile.png
 ├── index.html
 ├── services.html
 ├── site.webmanifest
@@ -36,7 +34,6 @@ This site showcases skills, experience, and projects in software development, da
 ## Customization
 - Update profile content and projects in `index.html`.
 - Change theme styles in `assets/css/styles.css`.
-- Replace the avatar in `img/avatar-profile.png`.
 
 ## Deployment
 Deploy as a static website on GitHub Pages, Netlify, Vercel, or any static host.
